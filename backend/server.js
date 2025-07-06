@@ -18,8 +18,10 @@ const corsOptions = {
   origin: [
     "http://localhost:5173", // Frontend dev
     "http://localhost:5174", // Admin dev
-    "https://*.vercel.app", // Vercel domains
-    "https://*.onrender.com", // Render domains
+    "https://doctors-appointment-fdlq.vercel.app", // Your deployed frontend
+    "https://doctors-appointment-admin.vercel.app", // Your deployed admin (if any)
+    "https://*.vercel.app", // Any Vercel subdomain
+    "https://*.onrender.com", // Any Render subdomain
   ],
   credentials: true,
 };
