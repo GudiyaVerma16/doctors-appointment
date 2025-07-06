@@ -20,8 +20,6 @@ const corsOptions = {
     "http://localhost:5174", // Admin dev
     "https://doctors-appointment-fdlq.vercel.app", // Deployed frontend
     "https://doctors-appointment-i142.vercel.app", // Deployed admin
-    "https://*.vercel.app", // Any Vercel subdomain
-    "https://*.onrender.com", // Any Render subdomain
   ],
   credentials: true,
 };
